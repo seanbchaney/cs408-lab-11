@@ -2,23 +2,16 @@
 
 ## Overview
 
-TODO: Write a project description
+This project is a web application that interacts with an AWS Lambda backend to manage items in a database. It allows users to perform CRUD (Create, Read, Update, Delete) operations on a list of items. The application allows users to:
+
+- View all items currently stored in the database in a table format.
+
+- Add new items using a simple HTML form.
+
+- Delete any item from the list.
+
+This project is part of a lab exercise where we connect a front-end application with an AWS Lambda function through API Gateway. The application uses basic web development techniques such as HTML, CSS, and JavaScript to create a functional user interface that interacts with an AWS backend.
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+NA
