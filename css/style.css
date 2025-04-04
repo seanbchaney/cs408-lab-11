@@ -1,4 +1,85 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+}
+
+#form-container {
+  width: 50%;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
 }
